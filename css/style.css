@@ -1,7 +1,67 @@
-*,body,html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
+body{
+    background-color:#fff8dc;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.header{
+    text-align: center;
+}
+.header .header-book-name{
+    margin: 70px;
+    
+}
+
+.navigation {
+    color: #666;
+    border: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+div {
+    display: block;
+}
+.navigation a {
     text-decoration: none;
+    color: black;
+    background: #8FBC8F;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 3px 6px;
+    margin: 2px;
+    font-size: 11px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.navigation .current {
+    border: 1px solid #040404;
+    font-weight: bold;
+    background: #556B2F;
+    color: #fff;
+}
+.navigation span {
+    text-decoration: none;
+    background: #8FBC8F;
+    padding: 3px 6px;
+    margin: 2px;
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+}
+
+p{
+    font-size:large;
+    margin: 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.container{
+    max-width: 1000px;
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background-color: #FFFFF0;
 }
