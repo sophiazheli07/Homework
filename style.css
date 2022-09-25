@@ -1,0 +1,77 @@
+.number{
+    color: red;
+    font-weight: 800;
+    background-color: rgb(224, 222, 222);
+}
+.period .per{
+    color: red;
+    font-weight: 800;
+    background-color: rgb(224, 222, 222)
+}
+table .period{
+    empty-cells: hide;
+}
+table .first-row{
+    empty-cells: hide;
+}
+table .second-row{
+    empty-cells: hide;
+}
+table .third-row{
+    empty-cells: hide;
+}
+table .empty-row{
+    empty-cells: hide;
+}
+.first-row .first{
+    color: red;
+    font-weight: 800;
+    background-color: rgb(224, 222, 222)
+}
+.second-row .second{
+    color: red;
+    font-weight: 800;
+    background-color: rgb(224, 222, 222)
+}
+
+.third-row .third{
+    color: red;
+    font-weight: 800;
+    background-color: rgb(224, 222, 222)
+}
+.fourth-row .fourth{
+    color: red;
+    font-weight: 800;
+    background-color: rgb(224, 222, 222)
+}
+.fifth-row .fifth{
+    color: red;
+    font-weight: 800;
+    background-color: rgb(224, 222, 222)
+}
+.sixth-row .sixth{
+    color: red;
+    font-weight: 800;
+    background-color: rgb(224, 222, 222)
+}
+.seventh-row .seventh{
+    color: red;
+    font-weight: 800;
+    background-color: rgb(224, 222, 222)
+}
+.actinoid .actinoids{
+    color: red;
+    font-weight: 800;
+    background-color: rgb(224, 222, 222)
+}
+.lanthanoid .lanthanoids{
+    color: red;
+    font-weight: 800;
+    background-color: rgb(224, 222, 222)
+}
+.seventh-row .Uus{
+    color: darkgray ;
+}
+.first-row .minmin{
+    background-image: linear-gradient(to bottom left, rgb(226, 75, 10) ,rgb(248, 248, 38)90%);
+}
