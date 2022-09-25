@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color: #F57E2C;
+    --text-color: #A4A19F;
+}
+html{
+    font-size: 10px;
+
+}
+body{
+    font-family: Inter, sans-serif;
+    background-color: black;
+    color: white;
+}
+img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+/*styles*/
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.profile_description{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.title{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+/*layout*/
+.container{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background-color: #171616;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+@media only screen and (max-width:800px) {
+.container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    padding: 3rem;
+    gap: 7rem;
+}
+}
+.profile{
+    grid-column: 1 / -1;
+    margin-bottom: 2rem;
+
+}
+.group-1{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.group-2{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.group-3{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    grid-column: 1/-1;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+
+}
+.group-3 > div{
+    flex: 1;
+}
+ 
+
+/* profile */
+.profile_container{
+    display: flex;
+    gap: 2rem;
+}
+.profile_profileimg{
+    max-width: 250px;
+
+}
+
+.firstname{
+    color: white;
+    font-weight: 200;
+    font-size: clamp(2rem, 8vw, 4rem);
+    text-decoration: uppercase;
+    display: block;
+    margin-bottom: -0.7 rem;
+
+}
+.lastname{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: clamp(2.5rem, 8vw, 7rem);
+    text-decoration: uppercase;
+    display: block;
+}
+
+.profile_title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: clamp(8vw);
+
+}
+ 
+/*specialization*/
+.skill-list {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 1.8;
+}
+
+/*Education*/
+
+.education-item{
+    margin-top: 2rem;
+}
+
+.education-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.img-examples{
+    border-radius: 0%;
+    height: 150px;
+    width: 320px;
+    margin-top: 2rem;
+    margin-left: 7rem;
+
+}
+
+.examples-of-the-recent-works .title{
+    margin-left: 7rem;
+}
+
+.icons{
+    border-radius: 0%;
+    height: 30px;
+    width: 40px;
+
+}
+
+.social_items{
+    margin-top: 2rem;
+}
+hr {
+    grid-column: 1/-1;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    border-top: 2px solid gray;
+    opacity:0.2;
+}
