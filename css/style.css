@@ -4,4 +4,175 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-size: 0;
+}
+
+.ears-top{
+    height: 50px;
+    width: 80px;
+    background: #F2E8D8;
+    display: inline-block;
+    left: 300px;
+    position: absolute;
+}
+#right{
+    position: relative;
+    left: 530px;
+}
+#left{
+    position: relative;
+    left: 210px;
+}
+.ears-bottom{
+    height: 100px;
+    width: 150px;
+    background: #F2E8D8;
+    display: inline-block;
+    position: absolute;
+    left: 175px;
+}
+#left-ear{
+    position: relative;
+    left: 575px;
+}
+.pink{
+    height: 80px;
+    width: 70px;
+    background:  #F7BAE9;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+.head{
+    width: 650px;
+    height: 400px;
+    background: #F2E8D8;
+    position: absolute;
+    left: 125px;
+}
+.eyes{
+    height: 110px;
+    width: 150px;
+    background: #fff;
+    position: absolute;
+    display: inline-block;
+}
+#left-eye{
+    position: absolute;
+    left: 410px;
+    top: 100px;
+}
+#right-eye{
+    position: absolute;
+    left: 90px;
+    top: 100px;
+}
+.pupil{
+    height: 50px;
+    width: 70px;
+    background: #3C3636;
+    position: absolute;
+    top: 60px;
+}
+#right-pupil{
+    position: absolute;
+    left: 80px;
+}
+.nose{
+    height: 60px;
+    width: 90px;
+    background: #FDD5F4;
+    position: relative;
+    left: 280px;
+    top: 200px;
+}
+.mouth1{
+    width: 15px;
+    height: 40px;
+    background: #C1BDBD;
+    position: relative;
+    top: 190px;
+    left: 320px;
+}
+.mouth{
+    height: 15px;
+    width: 165px;
+    background: #C1BDBD;
+    position: relative;
+    top: 190px;
+    left: 245px;
+}
+.strips{
+    height: 10px;
+    width: 80px;
+    background: #3B3636;
+}
+#first{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+#second{
+    position: absolute;
+    top: 220px;
+}
+#third{
+    position: absolute;
+    top: 280px;
+}
+
+.strips2{
+    height: 10px;
+    width: 80px;
+    background: #3B3636;
+    position: relative;
+    left: 570px;
+}
+#first2{
+    position: absolute;
+    top: 250px;
+    left: 550px;
+}
+#second2{
+    position: absolute;
+    top: 220px;
+}
+#third2{
+    position: absolute;
+    top: 280px;
+}
+.paws{
+    width: 200px;
+    height: 100px;
+    background: #E3DBCD;
+    position: relative;
+    top: 450px;
+    left: 50px;
+    display: inline-block;
+}
+.claws{
+    height: 45px;
+    width:15px;
+    background: #3B3636;
+    display: inline-block;
+    position: relative;
+}
+#one{
+    position: absolute;
+    left: 150px;
+    top: 55px;
+}
+#two{
+    position: absolute;
+    left: 95px;
+    top: 55px;
+}
+#three{
+    position: absolute;
+    left: 40px;
+    top: 55px;
+}
+#paw-second{
+    position: relative;
+    left: 140px;
 }
