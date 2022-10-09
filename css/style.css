@@ -1,7 +1,249 @@
+
 *,body,html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'Graphik LC TT';
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+}
+li{
+    margin-left: 57px;
+    cursor: pointer;
+}
+.menu{
+    border: 2px solid #CCCCCC;
+    min-height: 95px;
+    padding: 34px 51px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn{
+    display: inline-block;
+    width: 120px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.log{
+    background: #fff;
+    margin-right: 10px;
+
+}
+.try{
+    background: #FF6336;
+    color: #fff;
+    border: 1px solid #FF6336;
+    margin-right: 10px;
+}
+.wrap-main{
+    margin-left: 75px;
+    margin-top: 161px;
+    display: flex;
+}
+h1{
+    font-size: 65px;
+    font-weight: 600;
+
+}
+p{
+    font-weight: 400px;
+    font-size: 25px;
+    margin-top: 51px;
+}
+.button-main{
+    margin-top: 50px;
+}
+.features{
+    font-size: 15px;
+}
+.wrap-section{
+    min-height: 455px;
+    background: #FF9C7D;
+    margin-top: 140px;
+    text-align: center;
+    padding-top: 108px;
+}
+.companies-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 100px 0 100px;
+}
+.page-third{
+    margin-top: 241px;
+    margin-left: 75px;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.collab{
+    margin-bottom: 30px;
+}
+.third-page-img{
+    margin-left: 167px;
+    max-width: 632px;
+    max-height: 632px;
+    margin-right: 75px;
+}
+.market-page{
+    flex-direction: row-reverse;
+}
+.fourth-page-img{
+    margin-right: 138px;
+    max-width: 632px;
+    max-height: 632px;
+    
+}
+.localize{
+    margin-bottom: 30px;
+    margin-right: 145px;
+}
+.fifth-page-img{
+    margin-right: 138px;
+    max-width: 632px;
+    max-height: 632px;
+    
+}
+.sixth-page-img{
+    margin-right: 138px;
+    max-width: 632px;
+    max-height: 632px;
+    
+}
+.lokalise{
+    min-height: 1033px;
+    margin-top: 150px;
+    padding-top: 120px;
+    background: #FFF8E4;
+    text-align: center;
+}
+.list-items{
+    display: flex;
+    justify-content: center;
+    margin-top: 79px;
+    
+}
+.item-names{
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+.productivity-section{
+    margin-top: 154px;
+    text-align: center;
+}
+.learn-more{
+    text-decoration-line: underline;
+}
+.list-items-poductivity-section{
+    display: flex;
+    margin-top: 75px;
+    justify-content: center;
+}
+.list-items-productivity{
+    text-align: left;
+}
+.item-names-prod-section{
+    margin-top: 50px;
+}
+.dev{
+    margin-top: 70px;
+}
+.mang{
+    margin-top: 40px;
+}
+.revolut-wrap{
+    min-height: 468px;
+    background: #C9E8F2;
+    display: flex;
+    margin-top: 271px;
+}
+.revolut-section{
+    text-align: left;
+    margin-top: 51px;
+    margin-left: 75px;
+}
+.description-text{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+}
+.revolut-img{
+    max-width: 310px;
+    max-height: 310px;
+    margin-left: 300px;
+    margin-top: 53px;
+}
+.management-software-section{
+    min-height: 332px;
+    background: #DABC98;
+    padding-top: 90px;
+}
+.content-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.content-descritption{
+    font-weight: 600px;
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.tools{
+    width: 150px;
+}
+.main-content-wrap{
+    text-align: center;
+    margin-top: 165px;
+}
+.tools-btn{
+    text-align: center;
+    margin-top: 32px;
+}
+.tools-description{
+    margin-bottom: 25px;
+}
+.localization-easy-wrap{
+    min-height: 603px;
+    margin-top: 162px;
+    text-align: center;
+    background: #FF9C7D;
+    padding-top: 162px;
+
+}
+.main-text-localise{
+    font-size: 65px;
+
+}
+.localization-easy{
+    width: 150px;
+    height: 45px;
+    background: black;
+    color: #fff;
+    margin-top: 54px;
+}
+.case-stidies-main{
+
+}
+.case-studies-section{
+    background: #EEEEEE;
+    padding-top: 92px;
+}
+.main-texts-case{
+    margin-bottom: 28px;
 }
