@@ -184,7 +184,7 @@ span{
 .revolut-img{
     max-width: 310px;
     max-height: 310px;
-    margin-left: 300px;
+    margin-left: 75px;
     margin-top: 53px;
 }
 .management-software-section{
@@ -243,7 +243,69 @@ span{
 .case-studies-section{
     background: #EEEEEE;
     padding-top: 92px;
+    display: flex;
 }
 .main-texts-case{
     margin-bottom: 28px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.case-stidies-main{
+    margin-left: 75px;
+}
+.case-studies-icon{
+    margin-top: 38px;
+    margin-bottom: -30px;
+}
+.case-studies-description-text{
+    margin-bottom: 15px;
+}
+.product-list{
+    margin-left: 140px;
+
+
+}
+.product-list li:not(:first-of-type){
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.product-list-header{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.support-list-section{
+    margin-left: -25px;
+}
+.company-list-section{
+    margin-left: -99px;
+}
+.legal-list-section{
+    margin-left: -78px;
+}
+hr{
+    width: 1290px;
+    height: 1px;
+    margin-left: 75px;
+}
+.lokalise-case-studies-section{
+    background: #EEEEEE;
+    min-height: 125px;
+    padding-top: 95px;
+    padding-bottom: 48px;
+}
+.lokalise-description-case-studies{
+    display: flex;
+
+}
+.lokalise-list-case-studies{
+    display: flex;
+    margin-top: 58px;
+    margin-left: 20px;
+}
+.lokalise-case-credits{
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 700px;
 }
