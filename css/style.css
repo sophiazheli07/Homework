@@ -5,3 +5,7 @@
     list-style: none;
     text-decoration: none;
 }
+svg{
+    width: 100%;
+    height: 1000vh;
+}
