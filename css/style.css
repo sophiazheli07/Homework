@@ -5,3 +5,76 @@
     list-style: none;
     text-decoration: none;
 }
+.wrap{
+    animation: Moves 5s infinite;
+    min-width: 300px;
+}
+img {
+    transform: scaleX(-1);
+  }
+.car{
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  animation: carMove 5s linear infinite;
+}
+.wheel{
+  position: relative;
+  left: 0;
+  animation: spin 5s linear infinite;
+}
+.left{
+    left: 63px;
+    top: 105px;
+    animation: leftMove 5s linear infinite;
+}
+.right{
+    left: 183px;
+    top: 105px;
+    animation: rightMove 5s linear infinite;
+}
+.alarm{
+    background: red;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: -57px;
+    left: 230px;
+    animation: blinking 1s linear infinite;
+}
+
+@keyframes leftMove {
+    0%{
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes rightMove {
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
+@keyframes blinking {
+    0% {
+      background-color: red;
+    }
+    100% {
+      background-color: yellow;
+    }
+  }
+@keyframes Moves {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(80vw);
+    }
+}
